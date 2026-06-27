@@ -1,0 +1,122 @@
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.dashboard-header h1 {
+  font-size: 32px;
+  margin-bottom: 6px;
+}
+
+.dashboard-header p {
+  color: #94a3b8;
+}
+
+.query-card,
+.workflow-card,
+.timeline,
+.agent-card {
+  background: #1e293b;
+  border-radius: 16px;
+  padding: 20px;
+  border: 1px solid #334155;
+}
+
+.query-card textarea {
+  width: 100%;
+  margin-top: 15px;
+  background: #0f172a;
+  border: 1px solid #334155;
+  color: white;
+  border-radius: 10px;
+  padding: 15px;
+  resize: none;
+}
+
+.query-card button {
+  margin-top: 15px;
+  background: #2563eb;
+  color: white;
+  border: none;
+  padding: 12px 22px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: bold;
+}
+
+.query-card button:hover {
+  background: #1d4ed8;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap:20px;
+}
+
+.stat-card{
+  background:#1E293B;
+  padding:20px;
+  border-radius:15px;
+  border:1px solid #334155;
+}
+
+.stat-card h3{
+  color:#94A3B8;
+  margin-top:10px;
+}
+
+.stat-card h1{
+  margin-top:10px;
+  font-size:34px;
+}
+
+.workflow-row{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  margin-top:25px;
+}
+
+.workflow-node{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  gap:12px;
+}
+
+.circle{
+  width:55px;
+  height:55px;
+  border-radius:50%;
+  background:#2563EB;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  font-weight:bold;
+}
+
+.agent-row,
+.timeline-item{
+  display:flex;
+  align-items:center;
+  gap:12px;
+  padding:10px 0;
+  border-bottom:1px solid #334155;
+}
+
+.dot{
+  width:10px;
+  height:10px;
+  border-radius:50%;
+  background:#22C55E;
+}
+
+.two-column{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:20px;
+}
