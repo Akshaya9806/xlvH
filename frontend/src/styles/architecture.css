@@ -1,0 +1,22 @@
+.architecture{
+display:flex;
+flex-direction:column;
+gap:25px;
+}
+
+.architecture-box{
+background:#1E293B;
+padding:30px;
+border-radius:20px;
+display:flex;
+flex-direction:column;
+align-items:center;
+gap:15px;
+}
+
+.node{
+padding:15px 30px;
+background:#2563EB;
+border-radius:12px;
+font-weight:bold;
+}
